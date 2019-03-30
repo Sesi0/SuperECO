@@ -1,0 +1,55 @@
+{
+    "title": "supereco",
+    "name": "supereco",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "gulp watch",
+        "build": "gulp build",
+        "deploy": "gh-pages -d build"
+    },
+    "description": "SuperECO is online shop for buying eco products to make the world more greener.",
+    "keywords": [
+        "supereco",
+        "bamboo",
+        "eco",
+        "cutlery",
+        "sticks",
+        "биоразградими прибори",
+        "прибори",
+        "дървени прибори",
+        "еко",
+        "еко опаковки"
+    ],
+    "homepage": "https://Sesi0.github.io/SuperECO",
+    "bugs": {
+        "url": "https://github.com/Sesi0/SuperECO.git",
+        "email": "support@petroffsoft.bg"
+    },
+    "license": "MIT",
+    "author": "Borislav Nikolov",
+    "contributors": [
+        "Martin Petrov"
+    ],
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "5.8.1",
+        "bootstrap": "4.3.1",
+        "gh-pages": "^2.0.1",
+        "jquery": "3.3.1",
+        "jquery-localize": "^0.1.0",
+        "jquery.easing": "^1.4.1",
+        "magnific-popup": "^1.1.0"
+    },
+    "devDependencies": {
+        "browser-sync": "2.26.3",
+        "del": "4.0.0",
+        "gulp": "4.0.0",
+        "gulp-autoprefixer": "6.0.0",
+        "gulp-clean-css": "4.0.0",
+        "gulp-header": "2.0.7",
+        "gulp-plumber": "^1.2.1",
+        "gulp-rename": "1.4.0",
+        "gulp-sass": "4.0.2",
+        "gulp-uglify": "3.0.2",
+        "merge-stream": "^1.0.1"
+    }
+}

@@ -1,0 +1,14 @@
+{
+	"menu": {
+		"about": "About",
+		"contacts": "Contacts",
+		"projects": "Projects"
+	},
+	"about": "We've got what you need!",
+	"aboutcaption": "",
+	"aboutbutton": "GET STARTED",
+	"visitourstore": "Visit our store",
+	"visitourstorebutton": "Shop now",
+	"contactus": "Contact us",
+	"contactuscaption": "Are you ready to buy eco products with your logo on them?</br>Then contact us and we answear you as soon as possible!"
+}

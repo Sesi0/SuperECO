@@ -51,19 +51,13 @@
   });
 
   // Magnific popup calls
-  $('#portfolio').magnificPopup({
-    delegate: 'a',
-    type: 'image',
-    tLoading: 'Loading image #%curr%...',
-    mainClass: 'mfp-img-mobile',
-    gallery: {
-      enabled: true,
-      navigateByImgClick: true,
-      preload: [0, 1]
-    },
-    image: {
-      tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
-    }
+  $('#portfolio').ready(function() {
+
+    $('.portfolio-box').magnificPopup({
+      type: 'ajax',
+      alignTop: true,
+      overflowY: 'scroll' // as we know that popup content is tall we set scroll overflow by default to avoid jump
+    });
   });
 
 })(jQuery); // End of use strict

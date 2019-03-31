@@ -5,7 +5,7 @@
     "scripts": {
         "start": "gulp watch",
         "build": "gulp build",
-        "deploy": "gh-pages -d build"
+        "deploy": "gulp deploy"
     },
     "description": "SuperECO is online shop for buying eco products to make the world more greener.",
     "keywords": [

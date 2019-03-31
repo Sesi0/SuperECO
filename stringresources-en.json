@@ -2,13 +2,16 @@
 	"menu": {
 		"about": "About",
 		"contacts": "Contacts",
-		"projects": "Projects"
+		"products": "Products"
 	},
+	"masterheader": "YOU ARE ON THE RIGHT PLACE FOR ORDERING DISPOSABLE CONSUMABLES AND CUTLERY",
+	"masterheadercaption": "Guaranteed optimal price-quality ratio!",
+	"masterheaderbutton": "Find Out More",
 	"about": "We've got what you need!",
-	"aboutcaption": "",
+	"aboutcaption": "In our site you will find 100% biodegradable and environmentally friendly products.<br/></br>You can order wholesale and retail quantities as well as request branding of the products.<br/></br>The delivery time depends on the requested and available quantities.<br/></br>Quantities in stock are delivered by courier to the next working day.",
 	"aboutbutton": "GET STARTED",
 	"visitourstore": "Visit our store",
 	"visitourstorebutton": "Shop now",
-	"contactus": "Contact us",
-	"contactuscaption": "Are you ready to buy eco products with your logo on them?</br>Then contact us and we answear you as soon as possible!"
+	"contactus": "Order Now",
+	"contactuscaption": "Are you ready to buy an eco product?<br/>Contact us and request your order.<br/>Send us a text or logo if you wish to brand the products.<br/>Our associate will contact you within the day to confirm the order."
 }

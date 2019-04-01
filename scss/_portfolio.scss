@@ -17,15 +17,14 @@
         position: absolute;
         text-align: center;
 
-        color: $midnightblack;
-        text-align: center;
         .product-price {
           background: url('../img/bg-productcaption.jpg');
-          font-family: $font-family-sans-serif;
+          font-family: 'Pangolin', cursive;
           font-size: 0.85rem;
           font-weight: 600;
         }
         .product-name {
+          font-family: 'Pangolin', cursive;
           background:url('../img/bg-productcaption.jpg'); 
           font-size: 1.2rem;
         }

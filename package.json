@@ -7,7 +7,7 @@
         "build": "gulp build",
         "deploy": "gulp deploy"
     },
-    "description": "SuperECO is online shop for buying eco products to make the world more greener.",
+    "description": "You are on the right place for ordering disposable consumables and cutlery.",
     "keywords": [
         "supereco",
         "bamboo",
@@ -31,9 +31,7 @@
         "Martin Petrov"
     ],
     "dependencies": {
-        "@fortawesome/fontawesome-free": "5.8.1",
         "bootstrap": "4.3.1",
-        "gh-pages": "^2.0.1",
         "jquery": "3.3.1",
         "jquery-localize": "^0.1.0",
         "jquery.easing": "^1.4.1",

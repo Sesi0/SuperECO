@@ -12,7 +12,6 @@ const plumber = require("gulp-plumber");
 const rename = require("gulp-rename");
 const sass = require("gulp-sass");
 const uglify = require("gulp-uglify");
-const ghpages = require('gulp-gh-pages');
 
 // Load package.json for banner
 const pkg = require('./package.json');
@@ -53,9 +52,6 @@ function modules() {
   // Bootstrap JS
   var bootstrap = gulp.src('./node_modules/bootstrap/dist/js/**/*')
     .pipe(gulp.dest('./vendor/bootstrap/js'));
-  // Font Awesome
-  var fontAwesome = gulp.src('./node_modules/@fortawesome/**/*')
-    .pipe(gulp.dest('./vendor'));
   // jQuery Easing
   var jqueryEasing = gulp.src('./node_modules/jquery.easing/*.js')
     .pipe(gulp.dest('./vendor/jquery-easing'));
@@ -71,7 +67,7 @@ function modules() {
       '!./node_modules/jquery/dist/core.js'
     ])
     .pipe(gulp.dest('./vendor/jquery'));
-  return merge(bootstrap, fontAwesome, jquery, jqueryEasing, magnificPopup, localize);
+  return merge(bootstrap, jquery, jqueryEasing, magnificPopup, localize);
 }
 
 // CSS task
@@ -124,12 +120,6 @@ function watchFiles() {
   gulp.watch("./js/**/*", js);
   gulp.watch("./**/*.html", browserSyncReload);
 }
-
-// Deploy task
-gulp.task('deploy', function() {
-  return gulp.src('./dist/**/*')
-    .pipe(ghPages());
-});
 
 // Define complex tasks
 const vendor = gulp.series(clean, modules);

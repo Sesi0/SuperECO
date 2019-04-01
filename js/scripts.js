@@ -68,7 +68,7 @@
 
 function ipLookUp()
 { 
-		 $.ajax('http://ip-api.com/json').then(
+		 $.ajax('https://ipapi.co/country/').then(
 			function success(response) {
 				switch (response.countryCode) {
           case "BG":

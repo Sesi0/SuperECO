@@ -70,7 +70,7 @@ function ipLookUp()
 { 
 		 $.ajax('https://ipapi.co/country/').then(
 			function success(response) {
-				switch (response.countryCode) {
+				switch (response) {
           case "BG":
           $('[data-localize]').localize('stringresources', { language: 'bg' });
             break;

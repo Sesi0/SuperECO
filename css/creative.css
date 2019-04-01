@@ -10734,13 +10734,13 @@ header.masthead h1 {
 }
 
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption .product-price {
-  background: #130c16;
+  background: url("../img/bg-productcaption.jpg");
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.85rem;
   font-weight: 600;
 }
 
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption .product-name {
-  background: #130c16;
+  background: url("../img/bg-productcaption.jpg");
   font-size: 1.2rem;
 }

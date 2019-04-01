@@ -6,7 +6,7 @@
       position: relative;
       display: block;
       .portfolio-box-caption {
-        display: flex;
+        display: contents;
         align-items: center;
         justify-content: center;
         flex-direction: column;
@@ -15,28 +15,19 @@
         height: 100%;
 
         position: absolute;
-        bottom: 0;
-
         text-align: center;
-        opacity: 0;
 
         color: $midnightblack;
-        background: fade-out($primary, .1);
-        transition: opacity 0.25s ease;
         text-align: center;
-        .project-category {
+        .product-price {
+          background: $midnightblack;
           font-family: $font-family-sans-serif;
           font-size: 0.85rem;
           font-weight: 600;
-          text-transform: uppercase;
         }
-        .project-name {
+        .product-name {
+          background:$midnightblack; 
           font-size: 1.2rem;
-        }
-      }
-      &:hover {
-        .portfolio-box-caption {
-          opacity: 1;
         }
       }
     }
